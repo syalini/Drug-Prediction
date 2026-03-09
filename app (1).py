@@ -10,7 +10,7 @@ Original file is located at
 import streamlit as st
 import joblib
 
-model = joblib.load("final_pipeline_model (1).pkl)
+model = joblib.load("final_pipeline_model (1).pkl")
 le = joblib.load("label_encoder (1).pkl")
 
 st.title("🩺 Drug Review Condition Classifier")
